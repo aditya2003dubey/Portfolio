@@ -205,8 +205,10 @@ font-weight: 580;
     border: none;
     margin: 10px 30px 10px 150px;
     border-radius: 30px;
-}
-.about-section-img img{
+  }
+  .about-section-img img{
+    object-position: top;
+  object-fit: cover;
     position: relative;
     height: 100%;
     width: 100%;
@@ -430,9 +432,9 @@ font-weight: 580;
     left: 40px;
     /* height: 10rem; */
   }
-  .experience .left::after{
-    /* height: 10rem; */
-  }
+  /* .experience .left::after{
+    /* height: 10rem; 
+  } */
   .experience .content {
     background-color: #f68c09;
     position: relative;
@@ -535,15 +537,19 @@ font-weight: 580;
     position:relative;
     height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
 .contact-page-section{
-    position: absolute;
+  
     background-image: url("https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")  ;
     background-size: cover;
     background-repeat: no-repeat;
-    top: 4rem;
-    left: 8rem;
+   
     height: 80%;
     width: 80%;
     border-radius: 1.5rem;
