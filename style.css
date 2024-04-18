@@ -437,7 +437,7 @@ font-weight: 580;
 /* form-section */
 .contact-page{
     background-color: #E5ECFB;
-    height: 100vh;
+    /* height: 100vh; */
     
 }
 
@@ -447,7 +447,7 @@ font-weight: 580;
     background-repeat: no-repeat;
     width: 80%;
     border-radius: 1.5rem;
-    height: 80vh;
+    height: 75vh;
     margin: 2rem auto;
     align-items: center;
     justify-content: center;
@@ -504,7 +504,11 @@ border: none;
 font-weight: 600;
 font-size: 1rem;
 }
-
+@media (max-width:980) {
+  .contact-page-section{
+    height: 40vh;
+  }
+}
 
 footer{
     /* visibility: visible; */
